@@ -1,0 +1,45 @@
+n is  7
+
+Graph Paths: 
+['6', '4', '5', '1']
+['c']
+['7', '11', '9']
+['a', 'b', 'c', 'e', 'f']
+
+All Possible Paths:
+[['a', 'b', 'c', 'e', 'f'], ['a', 'b', 'd', 'e', 'f'], ['a', 'b', 'e', 'f']]
+[['7', '11', '9'], ['7', '8', '9']]
+6  -  ['4']  Degree:  1
+4  -  ['5', '3']  Degree:  2
+5  -  ['1', '2', '4']  Degree:  3
+3  -  ['4', '2']  Degree:  2
+2  -  ['3', '1', '2']  Degree:  3
+1  -  ['5', '2']  Degree:  2
+e  -  ['b']  Degree:  1
+a  -  ['e', 'b']  Degree:  2
+b  -  ['e', 'a', 'd']  Degree:  3
+d  -  ['a', 'b']  Degree:  2
+c  -  ['d']  Degree:  1
+7  -  ['11', '8']  Out-Degree:  2
+5  -  ['11']  Out-Degree:  1
+3  -  ['8', '10']  Out-Degree:  2
+11  -  ['9', '10']  Out-Degree:  2
+8  -  ['9']  Out-Degree:  1
+2  -  []  Out-Degree:  0
+9  -  []  Out-Degree:  0
+10  -  []  Out-Degree:  0
+
+In-Degree of graph1
+6 :  0
+4 :  3
+5 :  2
+3 :  2
+2 :  4
+1 :  2
+
+In-Degree of graph2
+e :  2
+a :  2
+b :  3
+d :  2
+c :  0
